@@ -91,6 +91,9 @@
 		</dependencies>
 	</dependencyManagement>
 	<modules>
+		<module>PP-MS-MedPolicy-Domain</module>
+		<module>PP-MS-MedPolicy-DAO</module>
+		<module>PP-MS-MedPolicy-Service</module>
 		<module>PP-MS-MedPolicy-Web</module>
 	</modules>
 </project>
