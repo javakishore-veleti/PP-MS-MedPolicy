@@ -11,4 +11,16 @@
 	<artifactId>PP-MS-MedPolicy-DAO</artifactId>
 	<packaging>jar</packaging>
 	<name>PP-MS-MedPolicy-DAO</name>
+	<dependencies>
+		<dependency>
+			<groupId>jk.provider.portal.ms.medpolicy</groupId>
+			<artifactId>PP-MS-MedPolicy-Domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.commons</groupId>
+			<artifactId>PP-MS-Commons-Libs</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
