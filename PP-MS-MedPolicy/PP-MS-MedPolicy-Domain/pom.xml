@@ -11,4 +11,19 @@
 	<artifactId>PP-MS-MedPolicy-Domain</artifactId>
 	<packaging>jar</packaging>
 	<name>PP-MS-MedPolicy-Domain</name>
+	<dependencies>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Domain</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
