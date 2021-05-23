@@ -1,4 +1,4 @@
-package jk.pp.ms.medpolicy.web.controller;
+package jk.pp.ms.medpolicy.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
