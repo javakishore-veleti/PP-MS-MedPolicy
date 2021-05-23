@@ -11,10 +11,11 @@ import jk.pp.ms.commons.configs.MSCommonGlobalConfig;
 import jk.pp.ms.commons.configs.MSType;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "jk.pp.ms.medpolicy.domain", "jk.pp.ms.medpolicy.dao", "jk.pp.ms.medpolicy.service", "jk.pp.ms.medpolicy.web",})
 @EntityScan(basePackages = { "jk.pp.ms.medpolicy.domain" })
 @EnableJpaRepositories(basePackages = { "jk.pp.ms.medpolicy.dao" })
-@Import(value = { MSCommonGlobalConfig.class, SpringFoxSwaggerConfig.class })
+@Import(value = { MSCommonGlobalConfig.class })
+@ComponentScan(basePackages = { "jk.pp.ms.medpolicy.domain", "jk.pp.ms.medpolicy.dao", "jk.pp.ms.medpolicy.service",
+		"jk.pp.ms.medpolicy.web", "jk.pp.engg.foundations.common", "jk.pp.ms.commons.configs.config" })
 public class MedPolicyWebMain {
 
 	public static void main(String[] args) {

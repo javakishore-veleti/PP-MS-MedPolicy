@@ -10,7 +10,7 @@ import jk.pp.ms.medpolicy.domain.PolicyTypeCrudDTO;
 import jk.pp.ms.medpolicy.service.PolicyTypeCrudService;
 
 @RestController
-@RequestMapping(name = "/api/services/medpolicy/policytype/crud", produces = "application/json")
+@RequestMapping(path = "/api/services/medpolicy/policytype/crud", produces = "application/json")
 public class PolicyTypeCrudController extends AppCrudController<PolicyType, PolicyTypeCrudDTO> {
 
 	@Autowired
